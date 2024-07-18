@@ -1,0 +1,17 @@
+.container{
+    text-align: center;
+    width: 60%;
+    margin: 20px auto;
+    background-color:#212121 ;
+    
+}   
+hr{
+    height: 5px;
+    background-color:#29a699;
+}
+ .container p{
+    font-weight: bold;
+   letter-spacing: 10px;
+   color: white;
+   text-transform:uppercase;
+}

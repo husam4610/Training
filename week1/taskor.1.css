@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #00c8ff;
+    width: 100%;
+    height: 150vh;
+    padding: 50px;
+}
+.upper-div{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.upper-div img{
+width: 250px;
+height: 250px;
+border-radius: 50%;
+}
+.upper-div pre{
+margin-top: 150px;
+margin-left: 25px;
+font-weight: bold;
+font-size: 16px;
+}
+.upper-inner{
+    margin-left: 800px;
+
+}
+h4{
+    text-align: right;
+}
+ul{
+    margin-left: 30px ;
+}
+.lower{
+    margin-top: 30px;
+}

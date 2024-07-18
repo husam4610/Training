@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.one{
+    border: 1px solid black ;
+    width: 25%;
+    height: 75px;
+    background-color: aqua;
+}    
+.two{
+border: 1px solid black;
+width: 70%;
+height: 75px;
+background-color: brown;
+display: flex;
+}    
+.child 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.long{
+    border: 1px solid black;
+    background-color: yellow;
+    width:100% ;
+    height: 75px;
+    margin-top: 20px;
+}
+.main{
+    padding: 25px;
+}
