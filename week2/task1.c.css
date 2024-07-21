@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: bisque;
+    display: grid;
+    width: 100%;    
+    grid-template-columns: repeat(3,1fr);
+}
+.box1{
+background-color: aqua;
+}
+.box2{
+    background-color: blue;
+    
+}
+.box3{
+    background-color: blueviolet;
+
+}
+.box4{
+    background-color: brown;
+}
+.box5{
+    background-color: chartreuse;
+}
+.box6{
+    background-color: chocolate;
+}
+.box7{
+    background-color: crimson;
+}
+.box8{
+    background-color: darkmagenta;
+}
+.box9{
+    background-color: tomato;
+}
+.box{
+    height: 200px;
+}
+.three{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    text-align: center;
+
+}
+.a{
+    background-color: red;
+    border:1px solid black;
+}
+.four{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+   
+    grid-template-areas:"a . ."
+                        ". b ."
+                        ". . c" ;
+
+}
+.child1{
+    grid-area: a;
+    background-color: blue;
+    text-align: center;
+}
+.child2{
+    grid-area: b;
+    background-color: chartreuse;
+text-align: center;
+}
+.child3{
+    grid-area: c;
+    background-color: deeppink;
+    text-align: center;
+}
+.nine{
+    display: flex;
+    gap: 5px;
+}
+.we{
+    width:25%;
+    background-color: cyan;
+    padding: 5px;
+    text-align: center;
+}
