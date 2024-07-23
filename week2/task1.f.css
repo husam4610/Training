@@ -1,0 +1,223 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .main{
+        margin: 30px;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .hed1{
+        display: flex;
+        gap: 2px;
+        align-items:center ;
+        color: red;
+    }
+
+    .hed2{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        font-weight: bold;
+    }
+
+    .hed3{
+        display: flex;
+        gap: 50px;
+        align-items: center;
+    }
+
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }   
+
+    .bar{ 
+        display: flex;
+        width: 50%;
+        border:1px solid lightgrey;
+        border-radius: 20px;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 20px;
+        padding: 11px;
+    }
+
+    .barrr{
+        font-weight: bold;
+        transition: 0.6s;
+        padding: 7px;
+        border-right: 1px solid lightgray;
+    }
+
+    .barrr:hover{
+        background-color: #ddd;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .barrrr{
+        background-color: lightcoral;
+        border-radius: 50px;
+        padding: 8px;
+    }
+
+    .barrrr:hover{
+        background-color: red;
+        transition: 0.6s;
+        cursor: pointer;
+    } 
+
+    .barr{
+        font-weight: bold;
+        transition: 0.6s;
+        padding: 8px;
+    }
+
+    .barr:hover{
+        background-color: #ddd;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    h3:hover{
+        cursor: pointer;
+    }
+
+    .border1:hover{
+        background-color: #ddd;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.6s;
+    }
+
+    .border1{
+        padding: 5px;
+    }
+
+    .border2:hover{
+        background-color: #ddd;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: 0.6s;
+    }
+
+    .border2{
+        padding: 10px;
+    }
+
+    .border3:hover{
+        background-color: #ddd;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.6s;
+    }
+
+    .border3{
+        display: flex;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    hr{
+        margin: 20px;
+        color: grey;
+        min-width: 100%;
+
+    }
+
+    .icons{
+        margin-top: 10px;
+        display: flex;
+        justify-content:space-between ;
+        width:100% ;
+        height: 20px;
+        align-items: center;
+        color: grey;
+    }
+    .icons div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .icons div:hover{ 
+        color: black; 
+        border-bottom: 1px solid black;
+        transition: 0.6s;
+        cursor: pointer;
+    }
+    .cards{
+        margin-top: 50px;
+        display:flex;
+        gap: 40px;
+        max-width:100%;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        position: relative;
+    }
+    .card{
+        width: 250px;
+    }
+    .image i{
+        position: absolute;
+        right:20px;
+        top:20px;
+        color:black;
+        z-index: 10;
+        background-color: #ddd;
+        padding: 7px;
+        border-radius: 10px;
+    }
+    .image p{
+        position: absolute;
+        left:20px;
+        top:20px;
+        color:black;
+        z-index: 10;
+        background-color: #ddd;
+        padding: 7px;
+        border-radius: 10px;
+    }
+    .image i:hover{
+        background-color: white;
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: 0.6s;
+    }
+    .image p:hover{
+        background-color: white;
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: 0.6s;
+    }
+    img{
+        width: 250px;
+        height: 250x;
+        border-radius: 16px;
+    }
+   .image{
+    position: relative;
+    width: fit-content;
+    z-index: 0;
+   }
+
+.data p{
+    max-width:250px;
+}
+.card:hover{
+   transform: scale(1.1);
+   transition: 0.6s;
+   cursor: pointer;
+}
+.hed1:hover{
+    cursor: pointer;
+}
